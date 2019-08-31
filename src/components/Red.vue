@@ -1,5 +1,7 @@
 <template>
-    <div></div>
+    <div>
+    	<slot></slot>
+    </div>
 </template>
 
 <script>
@@ -14,4 +16,7 @@
         margin: 20px auto;
         text-align: center
     }
+	h1 {
+		color: red;
+	}
 </style>
